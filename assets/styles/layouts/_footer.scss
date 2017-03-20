@@ -1,0 +1,29 @@
+footer.content-info{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 20px 0 40px 0;
+}
+.footer-logo{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.footer-cpy{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 10px 0 20px 0;
+}
+.footer-social{
+    .social-links {
+        .facebook {
+            background-image: url('../images/icons/facebook-logo-white.png');
+        }
+        .youtube {
+            background-image: url('../images/icons/youtube-logo-white.png');
+        }
+        .instagram {
+            background-image: url('../images/icons/instagram-logo-white.png');
+        }
+    }
+}
