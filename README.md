@@ -1,2 +1,0 @@
-# fauxtheloveofhair.com
-Faux Hair
