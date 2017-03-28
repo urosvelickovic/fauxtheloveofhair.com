@@ -13,7 +13,16 @@ header.banner {
         height: auto;
     }
 }
-#mega-menu-wrap-primary_navigation #mega-menu-primary_navigation > li.mega-menu-item > a.dashicons-search{
+.hero {
+    overflow: hidden;
+    .hero-content {
+        padding: 120px 0px;
+        width: 430px;
+        display: inline-block;
+        float: right;
+    }
+}
+#mega-menu-wrap-primary_navigation #mega-menu-primary_navigation > li.mega-menu-item > a.dashicons-search {
     font-size: 20px;
 }
 

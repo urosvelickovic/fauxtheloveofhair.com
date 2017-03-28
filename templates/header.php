@@ -18,4 +18,18 @@
       ?>
     </nav>
   </div>
+  <div class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-headline">Fauxtheloveofhaie</h1>
+        <h2 class="hero-headline">'Let your hair floh!'</h2>
+        <p class="hero-paragraph">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        </p>
+        <a href="#" class="btn btn-secondary">See More</a>
+      </div>
+    </div>
+  </div>
 </header>
