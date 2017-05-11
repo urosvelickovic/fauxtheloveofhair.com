@@ -7,5 +7,5 @@
     }?>
 
   </div>
-  <h1><?= Titles\title(); ?></h1>
+  <h1 class="underscore"><?= Titles\title(); ?></h1>
 </div>

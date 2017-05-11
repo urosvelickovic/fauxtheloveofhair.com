@@ -14,3 +14,13 @@
     @include make-col($sidebar-sm-columns);
   }
 }
+@media (max-width: 1024px) {
+    .main {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+    .sidebar{
+        display:none;
+    }
+}

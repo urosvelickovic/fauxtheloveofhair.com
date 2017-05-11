@@ -1,9 +1,13 @@
 .comment-form input[type=email], .comment-form input[type=text], .comment-form input[type=url], 
-.comment-form textarea, .form-control, .search-form .search-field, .subscribe-field{
+.comment-form textarea, .form-control, .search-form .search-field, .subscribe-field, .wpcf7-form-control {
   border-radius: 0px;
   border: 1px solid #000;
-  padding: 15px;
+  padding: 10px;
   font-size: 14px;
+  line-height: 18px;
+}
+.wpcf7-form-control{
+  width:100%;
 }
 // Search form
 .search-form {
@@ -12,7 +16,7 @@
 .search-form label {
   font-weight: normal;
   @extend .form-group;
-  width: calc(100% - 121px);
+  width: calc(100% - 154px);
 }
 .search-form .search-field {
   @extend .form-control;
@@ -22,7 +26,19 @@
 .search-form .search-field::-webkit-input-placeholder {
   color: #000;
 }
-.search-form .search-submit {
+.search-form .search-submit, .wpcf7-submit{
   @extend .btn;
   @extend .btn-primary;
+}
+.wpcf7-submit{
+  border-width: 0px;
+  width: auto;
+}
+.wpcf7-form label{
+  width: calc(100% - 40px);
+}
+#sort1, #sort2 {
+  border: 0px white solid;
+  background-color: white;
+  margin: 0 10px;
 }

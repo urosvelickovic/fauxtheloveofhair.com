@@ -26,3 +26,9 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+function wpcodex_add_excerpt_support_for_pages() {
+	add_post_type_support( 'page', 'excerpt' );
+}
+
+add_action( 'init', 'wpcodex_add_excerpt_support_for_pages' );

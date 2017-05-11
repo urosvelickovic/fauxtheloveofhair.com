@@ -1,0 +1,40 @@
+.sidebar{
+    padding: 110px 0 0 0;
+}
+.widget {
+    padding-bottom: 40px;
+    h3 {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+}
+.social-links {
+    li {
+        margin: 0 20px;
+    }
+}
+.subscribe-field {
+    width: calc(100% - 130px);
+    border-right-width: 0px;
+    margin-right: -4px;
+    position: relative;
+    top: 1px;
+}
+.widget:last-child {
+    color: #9b9b9b;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    h3 {
+        text-align: left;
+    }
+}
+.textwidget {
+    .social-links {
+        width:100%;
+        text-align: center;
+    }
+}

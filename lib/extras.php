@@ -31,3 +31,29 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+function sage_page_navi() {
+  global $wp_query;
+  $big = 999999999; // need an unlikely integer
+  $pages = paginate_links( array(
+  'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+  'format' => '?paged=%#%',
+  'current' => max( 1, get_query_var('paged') ),
+  'total' => $wp_query->max_num_pages,
+  'prev_next' => false,
+  'type'  => 'array',
+  'prev_next'   => TRUE,
+  'prev_text'    => '< Prev',
+  'next_text'    => 'Next >',
+  ) );
+  if( is_array( $pages ) ) {
+    $paged = ( get_query_var('paged') == 0 ) ? 1 : get_query_var('paged');
+    echo '<ul class="pagination pagination-lg">';
+    foreach ( $pages as $page ) {
+      echo "<li>$page</li>";
+    }
+    echo '</ul>';
+  }
+}/* end page navi */
+add_filter('sage_page_navi', __NAMESPACE__ . '\\sage_page_navi');
+

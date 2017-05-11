@@ -1,1 +1,66 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+body {
+    font-family: 'Roboto';
+    color: #111;
+    letter-spacing: 0.04em;
+    font-size: 15px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+h2  {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.24em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 50px 0px 25px 0px;
+}
+h3 {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.16em;
+    margin: 50px 0px 25px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h4 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #111;
+}
+img{
+    max-width: 100%;
+}
+p {
+    margin-bottom: 25px;
+    text-align: justify;
+    text-indent: 15px;
+}
+.container{
+    width:100%;
+    max-width: 1180px;
+    padding: 0px 20px;
+}
+.text-medium {
+    font-weight: 500;
+}
+.underscore:after {
+    content: ' ';
+    display: block;
+    height: 2px;
+    width: 60px;
+    background-color: #000;
+}
+li {
+    line-height: 40px;
+    padding-left: 20px;
+}
+.border-blue {
+    border: 10px solid #74ccd1;
+}
+ul {
+    text-align: left;
+}

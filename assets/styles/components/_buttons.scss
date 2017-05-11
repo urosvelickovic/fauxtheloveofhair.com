@@ -1,6 +1,19 @@
-.btn, .comment-form input[type=submit], .search-form .search-submit{
+.btn, .comment-form input[type=submit], .search-form .search-submit {
     border-radius: 0px;
     text-transform: uppercase;
-    padding: 15px 30px;
+    padding: 0px 40px;
     font-size: 14px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    border-width: 0px;
+}
+.btn-secondary {
+    color: #000;
+    background-color: #fbeee8;
+    border-color: #e3c4bd;
+    border-width: 2px;
+    margnin-top: 20px;
 }

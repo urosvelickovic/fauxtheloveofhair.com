@@ -21,7 +21,7 @@
   <div class="hero">
     <div class="container">
       <div class="hero-content">
-        <h1 class="hero-headline">Fauxtheloveofhaie</h1>
+        <h1 class="hero-headline"><span class="text-medium">Faux</span>the<span class="text-medium">love</span>of<span class="text-medium">hair</span></h1>
         <h2 class="hero-headline">'Let your hair floh!'</h2>
         <p class="hero-paragraph">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
